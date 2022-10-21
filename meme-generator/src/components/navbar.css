@@ -1,0 +1,18 @@
+.nav{
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6.5rem;
+    border:2px solid yellow;
+}
+
+.nav--title{
+    color: white;
+    font-size: 2.1rem;
+    font-weight: var(--font-big);
+    letter-spacing: -0.1em;
+}
+
+
+

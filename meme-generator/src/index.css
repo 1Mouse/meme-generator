@@ -1,0 +1,43 @@
+:root {
+    --font-huge: 900;
+    --font-big: 700;
+    --font-small: 400;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Typography */
+::selection {}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-size: 2.5rem;
+}
+
+.grid {
+    display: grid;
+}
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid--2x2 {
+        grid-template: repeat(2, 1fr)/ repeat(2,1fr);
+    }
+
+    .grid--1x3 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
